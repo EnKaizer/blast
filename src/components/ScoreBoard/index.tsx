@@ -48,7 +48,7 @@ export const ScoreBoard = ({T, CT, totalRounds}: ScoreBoardProps) => {
                             <label>{kills}</label>
                             <label>{assist}</label>
                             <label>{deaths}</label>
-                            <label>{(kills/totalRounds).toFixed(2)}</label>
+                            <label>{(kills/deaths).toFixed(2)}</label>
                         </ScoreBoardPlayersRow>
                     )
                 })}
@@ -71,7 +71,7 @@ export const ScoreBoard = ({T, CT, totalRounds}: ScoreBoardProps) => {
                             <label>{kills}</label>
                             <label>{assist}</label>
                             <label>{deaths}</label>
-                            <label>{(kills/totalRounds).toFixed(2)}</label>
+                            <label>{(kills/deaths).toFixed(2)}</label>
                         </ScoreBoardPlayersRow>
                     )
                 })}
